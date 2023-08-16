@@ -371,7 +371,7 @@ We expect no non-infra related flakes in the last month as a GA graduation crite
 - <test>: <link to test coverage>
 -->
 
-A new e2e test must be added as part of the [kubeadm dashboard](https://k8s-testgrid.appspot.com/sig-cluster-lifecycle-kubeadm). All tests in this dashboard use the [kinder](https://github.com/kubernetes/kubeadm/tree/main/kinder) tool.
+A new e2e test must be added as part of the [kubeadm dashboard](https://testgrid.k8s.io/sig-cluster-lifecycle-kubeadm). All tests in this dashboard use the [kinder](https://github.com/kubernetes/kubeadm/tree/main/kinder) tool.
 
 - During Alpha (disabled by default): add a new e2e test that enables the feature gate EtcdLearnerMode
 - During Beta (enabled by default): modify the e2e test to test the feature gate EtcdLearnerMode as disabled
